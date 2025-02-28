@@ -16,6 +16,6 @@ jobs:
           echo test, and deploy to your project.
 
   call-reusable-workflow:
-    uses: ./.github/workflows/resuable-workflow.yml
+    uses: ./.github/workflows/reusable-workflow.yml
     with:
         node: 14
